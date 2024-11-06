@@ -13,7 +13,8 @@ int main(void) {
 
   CodeMatrix matrix;
   while (true) {
-    system("clear");
+    matrix.Update();
+    system("clear"); // TODO: Replace with NCurses or a GUI Based Framework like Raylib.
     matrix.Render();
   }
 
