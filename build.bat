@@ -1,2 +1,2 @@
-cl /EHsc HackerOne.cpp
+cl /EHsc HackerOne.cpp CodeMatrix.cpp
 
