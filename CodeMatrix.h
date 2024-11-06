@@ -5,6 +5,7 @@
 
 class CodeMatrix {
   public:
+    CodeMatrix(void);
     void Render(void);
     void Update(void);
   private:
